@@ -1,0 +1,22 @@
+*{
+  background-color: purple;
+}
+@media (max-width: 320px) {
+  *{
+    background-color: red;}
+}
+@media (min-width:321px) and (max-width: 767px) {
+  *{
+    background-color: blue;
+  }
+}
+@media (min-width:768px) and (max-width: 1199px) {
+  * {
+    background-color: yellow;
+  }
+}
+@media (min-width: 1200px){
+  *{
+    background-color: green;
+  }
+}
